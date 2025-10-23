@@ -25,7 +25,7 @@
     enable = true;
     enable32Bit = true;
     extraPackages = with pkgs; [
-      amdvlk
+      # amdvlk
       libvdpau-va-gl
       vaapiVdpau
     ];
