@@ -29,6 +29,6 @@
       libvdpau-va-gl
       vaapiVdpau
     ];
-    extraPackages32 = with pkgs; [ driversi686Linux.amdvlk ];
+    # extraPackages32 = with pkgs; [ driversi686Linux.amdvlk ];
   };
 }
